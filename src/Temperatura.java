@@ -30,12 +30,10 @@ public class Temperatura{
 
     public void exibirResultados(){
 
-        String resultadoComDoisValoresKelvin = String.format("%.2f", Kelvin);
-        String resultadoComDoisValoresFahrenheit = String.format("%.2f", fahrenheit);
         System.out.println("********************");
-        System.out.println("Celsius: " + Celsius);
-        System.out.println("Fahrenheit: " + resultadoComDoisValoresFahrenheit);
-        System.out.println("Kelvin: " + resultadoComDoisValoresKelvin);
+        System.out.println(Celsius + "°C equivalem a:");
+        System.out.println(fahrenheit + "°F (fahrenheit)");
+        System.out.println(Kelvin + "°K (Kelvin)");
         System.out.println("*********************");
 
     }
