@@ -21,7 +21,7 @@ public class Temperatura{
 
     public void calculandoTemperatura(){
 
-        fahrenheit = Celsius * 1.8 + 32;
+        fahrenheit = (Celsius * 1.8) + 32;
         Kelvin = Celsius + 273.15;
 
         exibirResultados();
